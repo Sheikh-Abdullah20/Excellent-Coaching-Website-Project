@@ -1,0 +1,20 @@
+
+.nav{
+    background-color: #f3f3f3;
+}
+
+.upper-head h2{
+font-size: 12px;    
+color: white;
+text-align: center;
+
+}
+
+.banner{
+    height: 65vh;
+    background: url('Images/Banner.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+
+}
