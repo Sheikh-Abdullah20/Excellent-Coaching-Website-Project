@@ -1,13 +1,26 @@
 body {
     width: 100vw;
     height: auto;
-
-  font-family: "Quantico", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
+/* DropDown Css */
 
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    margin-left: .125em;
+}
+
+.nav-item:hover,
+.dropdown-item:hover {
+    background-color: #d1d1d1;
+    border-radius: 0.6rem;
+    transition: 0.3s ease-in-out;
+}
+
+/* DropDown Css */
 
 .nav {
     background-color: #f3f3f3;
@@ -15,6 +28,8 @@ body {
     ;
 
 }
+
+
 
 .upper-head {
     height: 50px;
@@ -32,51 +47,46 @@ body {
 
 }
 
-.banner {
-    background: url('Images/slider\ \(1\).jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 70vh;
-}
 
-.card {
+
+.learning {
     width: 20rem;
     max-width: fit-content;
-    position: relative;
-    top: 5vw;
+    position: absolute;
+    top: 20vw;
     padding: 0.5rem;
     margin: 0.5rem;
-
-
+    border-radius: 1rem;
+    background-color: #d0d0d0;
 }
 
-.banner .card h1 {
+.banner .learning h1 {
     font-size: clamp(1rem, 1vw, 1rem);
     font-weight: bold;
 
 }
 
-.banner .card p {
+.banner .learning p {
     font-size: clamp(0.2rem, 1vw, 1rem);
 }
 
 /* banner card responsiveness */
-@media only screen and (min-width: 2286px) and (max-width:7776px) {
-    .banner .card {
+@media only screen and (min-width: 2000px) and (max-width:7776px) {
+.learning {
         display: none;
     }
-    .row .cards-container{
+
+    .row .cards-container {
         position: absolute;
         bottom: 20rem;
     }
 
 }
 
-@media only screen and (min-width: 0px) and (max-width:750px) {
+@media only screen and (min-width: 0px) and (max-width:900px) {
 
     /* banner card responsiveness */
-    .banner .card {
+    .banner .learning {
         display: none;
         background: none;
 
@@ -85,17 +95,17 @@ body {
 
 }
 
-.companies{
+.companies {
     width: 100vw;
     height: 7rem;
-    background-color:  #f3f3f3;
+    background-color: #f3f3f3;
     position: relative;
-    bottom: 1vw;
+   top: 2rem;
 
 
 }
 
-.companies h4{
+.companies h4 {
     text-align: center;
     font-weight: 300;
     font-size: 1rem;
@@ -104,13 +114,17 @@ body {
 .companies img {
     mix-blend-mode: multiply;
 }
-.companies-logos{
+
+.companies-logos {
     display: flex;
     justify-content: space-evenly;
-   
+
 }
 
-
+.python-box{
+    position: relative;
+    top: 4rem;
+}
 .python-box .btn {
     width: 10rem;
     height: 2.5rem;
@@ -121,7 +135,8 @@ body {
     margin: 10px auto;
 
 }
-.python-box a{
+
+.python-box a {
     text-decoration: none;
 }
 
@@ -136,48 +151,49 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     position: relative;
-    bottom: 1rem;
+    top: 4.5rem;
     cursor: pointer;
 
 }
 
-.card:hover{
+.card:hover {
     background-color: #d1d1d1;
     transition: 0.2s ease-in-out;
 }
 
 
-.teacher-section{
+.teacher-section {
     width: 100vw;
     height: 20vw;
     background-color: #ffffff;
     margin-top: 5rem;
- 
 
-    
+
+
 }
-.teacher-section img{
+
+.teacher-section img {
     width: 20rem;
 }
 
-.teacher-section-2 .btn{
-    
+.teacher-section-2 .btn {
+
     width: 10rem;
     height: 3rem;
     background-color: black;
     color: white;
     border-radius: 2rem;
-    
+
 }
 
-.teacher-section-2 .btn:hover{
+.teacher-section-2 .btn:hover {
     background-color: rgb(200, 197, 197);
-color: black;
-transition: 0.4s ease-in-out;
+    color: black;
+    transition: 0.4s ease-in-out;
 }
 
-.row .teacher-section-row{
+.row .teacher-section-row {
     display: flex;
     justify-content: center;
- 
+
 }
