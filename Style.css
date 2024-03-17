@@ -199,12 +199,22 @@ body {
 
 footer{
     width: 100%;
-    height: 18rem;
+   height: auto;
     background-color: #f3f3f3;
     padding: 1rem;
+    position: relative;
+    top: 12rem;
+
+}
+.h3-bef{
+    color: black;
+    font-weight: bold;
+    font-size: 2rem, 2vw, 3rem;
+
 }
 .footer-links{
     color: black;
+font-size: clamp(0.5rem,1vw,1.5rem);
 }
 .footer-links:hover{
     background-color: #d1d1d1;
@@ -213,13 +223,13 @@ footer{
 }
 
 .icons{
-    font-size: 2rem;
+    font-size: clamp(0.5rem, 1vw, 1.5rem) 
 }
 
 .icons a{
     text-decoration: none;
     color: black;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .icons a:hover{

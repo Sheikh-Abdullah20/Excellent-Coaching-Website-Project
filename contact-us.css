@@ -1,0 +1,61 @@
+body {
+    width: 100vw;
+    height: auto;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* DropDown Css */
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    margin-left: .125em;
+}
+
+.nav-item:hover,
+.dropdown-item:hover {
+    background-color: #d1d1d1;
+    border-radius: 0.6rem;
+    transition: 0.3s ease-in-out;
+}
+
+/* DropDown Css */
+
+.nav {
+    background-color: #f3f3f3;
+    box-shadow: 0 10px 4px rgba(0, 0, 0, .08), 0 10px 12px rgba(0, 0, 0, .08);
+    ;
+
+}
+
+.banner{
+    width: 100%;
+    background-color: rgb(208, 208, 208);
+    display: flex;
+    justify-content: space-around;
+}
+.banner img{
+    width: 60%;
+    margin: 2px auto;
+    display: block;
+}
+.banner h2{
+    font-size: clamp(1rem, 4vw, 1.5rem);
+}
+
+
+.origins{
+position: relative;
+top: 5rem;
+}
+
+.para{
+    width: 100%;
+    position: relative;
+    top: 5rem;
+
+}
+.para p{
+    font-size: clamp(0.3rem, 1vw, 1.5rem);
+}
