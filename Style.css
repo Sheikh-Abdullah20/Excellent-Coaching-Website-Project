@@ -203,7 +203,9 @@ footer{
     background-color: #f3f3f3;
     padding: 1rem;
 }
-
+.footer-links{
+    color: black;
+}
 .footer-links:hover{
     background-color: #d1d1d1;
     border-radius: 1rem;
