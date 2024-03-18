@@ -161,7 +161,13 @@ body {
     position: relative;
     top: 10rem;
     cursor: pointer;
+}
 
+.card{
+    border: 2px solid #888888;
+    box-shadow: 0 10px 4px rgba(0, 0, 0, .08), 0 10px 12px rgba(0, 0, 0, .08); ;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 .card:hover {
@@ -178,6 +184,12 @@ body {
 
 
 
+}
+.teacher-section h2{
+    font-size: clamp(1.5rem,1vw,1.5rem);
+}
+.teacher-section h4{
+    font-size: clamp(0.8rem,1vw,1.5rem);
 }
 
 .teacher-section img {
@@ -211,10 +223,10 @@ footer{
     top: 12rem;
 
 }
-.h3-bef{
+footer .h3-bef{
     color: black;
     font-weight: bold;
-    font-size: 2rem, 2vw, 3rem;
+    font-size: clamp(0.8rem, 2vw, 3rem);
 
 }
 .footer-links{

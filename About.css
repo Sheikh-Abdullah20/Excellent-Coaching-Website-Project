@@ -90,32 +90,29 @@ bottom: 2rem;
 
 }
 .brief .card-brief p {
-    width: 20rem;
+    width: 100%;
     text-align: start;
     font-size: clamp(0.5rem, 1vw, 1rem);
 }
 
 
 footer{
-    margin: 3px auto;
-    display: block;
     width: 100%;
    height: auto;
     background-color: #f3f3f3;
     padding: 1rem;
-    position: relative;
-    top: 12rem;
+
 
 }
-.h3-bef{
+footer .h3-bef{
     color: black;
     font-weight: bold;
-    font-size: 2rem, 2vw, 3rem;
+    font-size: clamp(0.8rem, 1vw, 2rem);
 
 }
 .footer-links{
     color: black;
-font-size: clamp(0.6rem,1vw,1.5rem);
+    font-size: clamp(0.5rem,1vw,1.5rem);
 }
 .footer-links:hover{
     background-color: #d1d1d1;
