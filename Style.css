@@ -70,6 +70,9 @@ body {
     font-size: clamp(0.2rem, 1vw, 1rem);
 }
 
+.banner-image img{
+ width: 100%;
+}
 /* banner card responsiveness */
 @media only screen and (min-width: 2000px) and (max-width:7776px) {
 .learning {
@@ -96,12 +99,11 @@ body {
 }
 
 .companies {
-    width: 100vw;
-    height: 7rem;
+    width: 100%;
+    height: 10rem;
     background-color: #f3f3f3;
     position: relative;
    top: 2rem;
-
 
 }
 
@@ -109,15 +111,19 @@ body {
     text-align: center;
     font-weight: 300;
     font-size: 1rem;
+    margin: 1rem;
 }
 
 .companies img {
+
     mix-blend-mode: multiply;
 }
 
 .companies-logos {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    position: relative;
+    top: 1rem;
 
 }
 
@@ -128,11 +134,10 @@ body {
 .python-box .btn {
     width: 10rem;
     height: 2.5rem;
-    background-color: rgb(33, 35, 37);
-    color: white;
-    border-radius: 2rem;
-    display: block;
-    margin: 10px auto;
+   border: 1.5px solid #d0d0d0;
+    color: rgb(0, 0, 0);
+
+ 
 
 }
 
@@ -145,13 +150,16 @@ body {
     color: black;
     transition: 0.5s ease-in-out;
 }
+.cards-border {
 
+    border: 1px solid black;
+}
 .row .cards-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     position: relative;
-    top: 4.5rem;
+    top: 10rem;
     cursor: pointer;
 
 }
@@ -162,26 +170,28 @@ body {
 }
 
 
+
 .teacher-section {
-    width: 100vw;
+    width: 100%;
     background-color: #ffffff;
-    margin-top: 5rem;
+    margin-top: 15rem;
 
 
 
 }
 
 .teacher-section img {
-    width: 20rem;
+    width: 33%;
 }
 
 .teacher-section-2 .btn {
 
-    width: 10rem;
-    height: 3rem;
-    background-color: black;
-    color: white;
-    border-radius: 2rem;
+    width: 50%;
+    height: 40%;
+    border: 1.5px solid #d0d0d0;
+    color: rgb(0, 0, 0);
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    text-align: center;
 
 }
 
@@ -191,11 +201,6 @@ body {
     transition: 0.4s ease-in-out;
 }
 
-.row .teacher-section-row {
-    display: flex;
-    justify-content: center;
-
-}
 
 footer{
     width: 100%;
