@@ -1,0 +1,210 @@
+
+body {
+    width: 100vw;
+    height: auto;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* DropDown Css */
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    margin-left: .125em;
+}
+
+.nav-item:hover,
+.dropdown-item:hover {
+    background-color: #d1d1d1;
+    border-radius: 0.6rem;
+    transition: 0.3s ease-in-out;
+}
+
+/* DropDown Css */
+
+.nav {
+    background-color: #f3f3f3;
+    box-shadow: 0 10px 4px rgba(0, 0, 0, .08), 0 10px 12px rgba(0, 0, 0, .08);
+    ;
+
+}
+
+
+.text-card{
+    background-color: #f3f3f3;
+    color: rgb(0, 0, 0);
+}
+h3{
+    font-size: clamp(2rem, 1vw, 3rem);
+
+}
+
+.skills-potential{
+position: relative;
+top: 3rem;
+}
+
+.skills-potential p{
+   font-size: clamp(1rem, 1vw, 2rem);
+}
+
+.global-catalog{
+    width: 100%;
+    height: 23rem;
+    background-color: #5624d0;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 5rem;
+}
+.global-catalog h3{
+    font-size: clamp(1.5rem, 1vw, 3rem);
+}
+.global-catalog p{
+   font-size: clamp(1rem, 1vw, 2rem);
+    width: 35rem;
+    display: block;
+    margin: 2px auto;
+}
+.catalog-content{
+padding: 2rem;
+position: relative;
+bottom: 2rem;
+}
+.catalog-content h4{
+    font-size: clamp(1rem, 1vw, 2rem);
+    font-weight: bold;
+}
+span{
+    font-size: clamp(0.7rem,1vw,1.5rem);
+}
+
+.text-config{
+    padding: 1.5rem;
+}
+
+
+.main-content{
+    width: 60%;
+    margin: 2px auto;
+    display: block;
+    position: relative;
+    top: 2rem;
+
+}
+
+.main-content h3{
+    color: black;
+    font-size: clamp(0.5rem, 1vw, 1rem);
+}
+
+.main-content .btn{
+    width: 5rem;
+    height: 2rem;
+    border: 1.5px solid #d0d0d0;
+    font-size: clamp(0.5rem, 1vw, 1rem);
+}
+
+
+.main-content .btn a {
+    text-decoration: none;
+    color: black;
+}
+.main-content .btn:hover{
+    background-color: rgb(200, 197, 197);
+    transition: 0.5s ease-in-out;
+}
+
+
+.brief{
+    width: 100%;
+    background-color: rgb(252, 252, 252);
+    position: relative;
+    top: 3rem;
+}
+
+.brief .card-brief{
+    width: 20rem;
+   height: auto;
+    border: none;
+    border-top: 9px solid darkblue;
+    text-align: start;
+    cursor: pointer;
+
+}
+
+.brief .card-brief-2{
+    width: 20rem;
+    height: auto;
+     border: none;
+     border-top: 9px solid rgb(0, 0, 0);
+     text-align: start;
+     cursor: pointer;
+}
+.brief .card-brief-3{
+    width: 20rem;
+    height: auto;
+     border: none;
+     border-top: 9px solid rgb(64, 3, 3);
+     text-align: start;
+     cursor: pointer;
+     
+}
+.brief .card-brief p {
+    width: 100%;
+    text-align: start;
+    font-size: clamp(0.5rem, 1vw, 1rem);
+}
+.brief .card-brief-2 p {
+    width: 100%;
+    text-align: start;
+    font-size: clamp(0.5rem, 1vw, 1rem);
+}
+
+.brief .card-brief-3 p {
+    width: 100%;
+    text-align: start;
+    font-size: clamp(0.5rem, 1vw, 1rem);
+}
+
+
+footer{
+    width: 100%;
+   height: auto;
+    background-color: #f3f3f3;
+    padding: 1rem;
+    position: relative;
+    top: 5rem;
+
+
+}
+footer .h3-bef{
+    color: black;
+    font-weight: bold;
+    font-size: clamp(0.8rem, 1vw, 2rem);
+
+}
+.footer-links{
+    color: black;
+    font-size: clamp(0.5rem,1vw,1.5rem);
+}
+.footer-links:hover{
+    background-color: #d1d1d1;
+    border-radius: 1rem;
+    transition: 0.2s ease-in-out;
+}
+
+.icons{
+    font-size: clamp(0.5rem, 1vw, 1.5rem) 
+}
+
+.icons a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+}
+
+.icons a:hover{
+    color:#888888 ;
+    transition: 0.3s ease-in;
+}
