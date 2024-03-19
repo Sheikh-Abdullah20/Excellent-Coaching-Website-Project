@@ -85,7 +85,7 @@ span{
 
 
 .main-content{
-    width: 60%;
+    width: 65%;
     margin: 2px auto;
     display: block;
     position: relative;
@@ -95,14 +95,14 @@ span{
 
 .main-content h3{
     color: black;
-    font-size: clamp(0.5rem, 1vw, 1rem);
+    font-size: clamp(0.8rem, 1vw, 1rem);
 }
 
 .main-content .btn{
-    width: 5rem;
-    height: 2rem;
+    width: 8rem;
+    height: 3rem;
     border: 1.5px solid #d0d0d0;
-    font-size: clamp(0.5rem, 1vw, 1rem);
+    font-size: clamp(0.7rem, 1vw, 1rem);
 }
 
 

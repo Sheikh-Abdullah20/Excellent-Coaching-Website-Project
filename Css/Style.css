@@ -201,10 +201,9 @@ body {
 
 .teacher-section-2 .btn {
 
-    width: 5rem;
-    height: 2rem;
-   
-    font-size: clamp(0.5rem, 1vw, 1rem);
+    width: 9rem;
+    height: 3rem;
+    font-size: clamp(0.8rem, 1vw, 1rem);
     border: 1.5px solid #d0d0d0;
     color: rgb(0, 0, 0);
     text-align: center;
