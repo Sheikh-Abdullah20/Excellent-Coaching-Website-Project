@@ -348,7 +348,6 @@ span{
 .all-course{
     position: relative;
     top: 68rem;
-    text-align: center;
     
 }
 
@@ -359,9 +358,6 @@ span{
     top: 70rem;
     display: flex;
     align-items: center;
-    margin: 2px auto;
-    display: block;
-    width: 60rem
    
     
 }
