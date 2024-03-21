@@ -14,11 +14,18 @@ body {
     margin-left: .125em;
 }
 
-.nav-item:hover,
-.dropdown-item:hover {
-    background-color: #d1d1d1;
-    border-radius: 0.6rem;
-    transition: 0.3s ease-in-out;
+.dropend:hover>.dropdown-menu {
+    display: block;
+    margin-left: 5em;
+   position: absolute;
+   left: 4.5rem;
+    top: -0.5rem;
+}
+
+
+.dropdown-menu > .dropend:hover {
+    display: block;
+    margin-left: 0.5rem;
 }
 
 /* DropDown Css */

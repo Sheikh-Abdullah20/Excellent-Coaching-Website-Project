@@ -1,0 +1,287 @@
+body {
+    width: 100vw;
+    height: auto;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+/* DropDown Css */
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    margin-left: .125em;
+}
+
+.dropend:hover>.dropdown-menu {
+    display: block;
+    margin-left: 5em;
+   position: absolute;
+   left: 4.5rem;
+    top: -0.5rem;
+}
+
+
+.dropdown-menu > .dropend:hover {
+    display: block;
+    margin-left: 0.5rem;
+}
+
+.nav-item:hover,
+.dropdown-item:hover {
+    background-color: #d1d1d1;
+    border-radius: 0.6rem;
+    transition: 0.3s ease-in-out;
+}
+
+/* DropDown Css */
+
+.nav {
+    background-color: #f3f3f3;
+    box-shadow: 0 10px 4px rgba(0, 0, 0, .08), 0 10px 12px rgba(0, 0, 0, .08);
+    z-index: 1;
+
+}
+
+
+.upper-head {
+    height: 50px;
+    text-align: center;
+    background-color: rgb(3, 3, 12);
+
+}
+
+
+.upper-head h2 {
+    font-size: clamp(0.6rem, 1vw, 2rem);
+    color: white;
+    padding: 0.8rem;
+
+}
+
+
+.Data-Science{
+    position: relative;
+    top:4rem;
+    text-align: left;
+}
+
+.Data-Science h2{
+    font-size: clamp(1rem,7vw,2rem);
+}
+
+.courses-to-get-started{
+    position: relative;
+    top: 7rem;
+    border-bottom: 2px solid black;
+
+}
+
+.courses-to-get-started h2{
+    font-size: clamp(1rem,4vw,2rem);
+}
+
+.course-cards{
+    position: relative;
+    top: 10rem;
+   
+}
+
+.course-cards .card{
+    width: 15rem;
+    height: auto;
+    border: none;
+    transition: 0.3s ease;
+   
+}
+
+.course-cards .card:hover{
+    transform: scale(1.1);
+}
+.course-cards .card img{
+    border-bottom: 2px solid black;
+}
+.course-cards .card p {
+    font-size: 1rem,1vw,1.5rem;
+}
+
+
+.cards-aligner-col{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.span{
+    position: relative;
+    bottom: 0.9rem;
+    font-size: clamp(0.7rem,0.5vw,1rem);
+    font-weight: 500;
+}
+span{
+    font-size: clamp(0.7rem,0.5vw,0.8rem);
+    font-weight: 500;
+}
+
+.stars{
+    position: relative;
+    bottom: 1rem;
+    font-size: clamp(0.7rem,0.5vw,1.5rem);
+}
+
+.Python-Students-Also-Learn{
+    position: relative;
+    top: 15rem;
+    border-bottom: 2px solid black;
+}
+.Python-Students-Also-Learn h2{
+    font-size: clamp(1rem,5vw,2rem);
+}
+
+.contain-section{
+    position: relative;
+    top: 12rem;
+    background-color: rgb(255, 255, 255);
+    border-top: 0.5px solid  darkgoldenrod;
+    border-bottom: 0.5px solid cadetblue;
+}
+.contain-section p{
+    font-size: clamp(0.8rem,1.5vw,2rem);
+    
+}
+
+.contain-section i{
+    font-size: clamp(2rem,2vw,2rem);
+    
+}
+
+.Popular-topics{
+    position: relative;
+    top: 16rem;
+    border-bottom: 0.5px solid black;
+}
+.courses-button{
+    position: relative;
+    top: 18rem;
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.btns button{
+    width: 15rem;
+    height: 4rem;
+    border: none;
+    background-color: white;
+    border: 1px solid #d1d1d1;
+    transition: 0.3s ease;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+.btns button:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.popular-ins-heading{
+    position: relative;
+    top: 22rem;
+    border-bottom: 0.5px solid black;
+}
+.popular-ins{
+    position: relative;
+    top: 25rem;
+
+}
+.card{
+    width: 25rem;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card .box{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+    position: relative;
+    top: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card .box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10rem;
+}
+
+
+.card-body{
+    display: flex;
+}
+
+.card-content h2{
+    font-size: clamp(0.6rem,1vw,1.5rem);
+    font-weight: bold;
+    margin-left: 2rem;
+
+}
+.card-content p{
+    text-align: center;
+    font-size: clamp(0.6rem,1vw,1.5rem);
+    margin-left: 2rem;
+}
+
+
+.span{
+    position: relative;
+    bottom: 0.9rem;
+    font-size: clamp(0.7rem,0.5vw,1rem);
+    font-weight: 500;
+}
+span{
+    font-size: clamp(0.7rem,0.5vw,0.8rem);
+    font-weight: 500;
+}
+
+.stars{
+    position: relative;
+    bottom: 1rem;
+    font-size: clamp(0.5rem,0.5vw,1.5rem);
+}
+
+.all-course{
+    position: relative;
+    top: 30rem;
+}
+
+.contain-bar
+{
+        height: 4rem;
+    position: relative;
+    top: 32rem;
+  background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+}
+
+.bar i{
+    width: 2rem;
+    border-radius: 2rem;
+    background-color: black;
+    color: white;
+    font-size: clamp(1.5rem,2.5vw,2rem);
+    text-align: center;;
+   
+    
+}
+
+.bar h4{  
+    font-size: clamp(1rem,2vw,2rem);
+}
