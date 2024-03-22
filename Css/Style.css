@@ -12,9 +12,11 @@ body {
 .dropdown:hover>.dropdown-menu {
     display: block;
     margin-left: .125em;
+    width: 11rem;
 }
 
 .dropend:hover>.dropdown-menu {
+    
     display: block;
     margin-left: 5em;
    position: absolute;
