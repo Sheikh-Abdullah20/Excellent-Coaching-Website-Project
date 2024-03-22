@@ -157,32 +157,53 @@ body {
     color: black;
     transition: 0.5s ease-in-out;
 }
-.cards-border {
-
-    border: 1px solid black;
-}
-.row .cards-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.course-cards{
     position: relative;
-    top: 10rem;
-    cursor: pointer;
+    top: 12rem;
+   
 }
 
-.card{
-    border: 2px solid #888888;
-    box-shadow: 0 10px 4px rgba(0, 0, 0, .08), 0 10px 12px rgba(0, 0, 0, .08); ;
-    padding: 1rem;
-    margin: 1rem;
+.course-cards .card{
+    width: 15rem;
+    height: auto;
+    border: none;
+    transition: 0.3s ease;
+   
 }
 
-.card:hover {
-    background-color: #d1d1d1;
-    transition: 0.2s ease-in-out;
+.course-cards .card:hover{
+    transform: scale(1.1);
+}
+.course-cards .card img{
+    border-bottom: 0.5px solid #d1d1d1 ;
+} 
+.course-cards .card p {
+    font-size: 1rem,1vw,1.5rem;
 }
 
 
+.cards-aligner-col{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.span{
+    position: relative;
+    bottom: 0.9rem;
+    font-size: clamp(0.7rem,0.5vw,1rem);
+    font-weight: 500;
+}
+span{
+    font-size: clamp(0.7rem,0.5vw,0.8rem);
+    font-weight: 500;
+}
+
+.stars{
+    position: relative;
+    bottom: 1rem;
+    font-size: clamp(0.7rem,0.5vw,1.5rem);
+}   
 
 .teacher-section {
     width: 100%;
@@ -262,3 +283,4 @@ font-size: clamp(0.5rem,1vw,1.5rem);
     color:#888888 ;
     transition: 0.3s ease-in;
 }
+

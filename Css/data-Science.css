@@ -74,7 +74,7 @@ body {
 .courses-to-get-started{
     position: relative;
     top: 7rem;
-    border-bottom: 0.5px solid black;
+    border-bottom: 0.5px solid #d1d1d1;
 
 }
 
@@ -102,8 +102,8 @@ body {
     transform: scale(1.1);
 }
 .course-cards .card img{
-    border-bottom: 2px solid black;
-}
+    border-bottom: 0.5px solid #d1d1d1 ;
+} 
 .course-cards .card p {
     font-size: 1rem,1vw,1.5rem;
 }
@@ -137,7 +137,7 @@ span{
 .courses-to-get-started-2{
     position: relative;
     top: 18rem;
-    border-bottom: 0.5px solid black;
+    border-bottom: 0.5px solid #d1d1d1;
 
 }
 
@@ -165,7 +165,7 @@ span{
     transform: scale(1.1);
 }
 .course-cards-2 .card img{
-    border-bottom: 2px solid black;
+    border-bottom: 0.5px solid #d1d1d1;
 }
 .course-cards-2 .card p {
     font-size: 1rem,1vw,1.5rem;
@@ -180,7 +180,7 @@ span{
 .courses-to-get-started-3{
     position: relative;
     top: 31rem;
-    border-bottom: 0.5px solid black;
+    border-bottom: 0.5px solid  #d1d1d1;
 
 }
 
@@ -208,7 +208,7 @@ span{
     transform: scale(1.1);
 }
 .course-cards-3 .card img{
-    border-bottom: 2px solid black;
+    border-bottom: 0.5px solid #d1d1d1;
 }
 .course-cards-3 .card p {
     font-size: 1rem,1vw,1.5rem;
@@ -222,7 +222,7 @@ span{
 .Python-Students-Also-Learn{
     position: relative;
     top: 15rem;
-    border-bottom: 2px solid black;
+    border: 0.5px solid #d1d1d1;
 }
 .Python-Students-Also-Learn h2{
     font-size: clamp(1rem,5vw,2rem);
@@ -248,7 +248,7 @@ span{
 .Popular-topics{
     position: relative;
     top: 44rem;
-    border-bottom: 0.5px solid black;
+    border: 0.5px solid #d1d1d1;
 }
 .courses-button{
     position: relative;
@@ -265,7 +265,7 @@ span{
     height: 4rem;
     border: none;
     background-color: white;
-    border: 1px solid #d1d1d1;
+    border: 0.5px solid #d1d1d1;
     transition: 0.3s ease;
     border-radius: 1rem;
     margin-top: 1rem;
@@ -277,13 +277,18 @@ span{
 .popular-ins-heading{
     position: relative;
     top: 55rem;
-    border-bottom: 0.5px solid black;
+    border-bottom: 0.5px solid #d1d1d1;
 }
 .popular-ins{
     position: relative;
     top: 60rem;
 
 }
+
+
+
+   
+
 .card{
     width: 25rem;
     height: auto;
@@ -300,14 +305,16 @@ span{
     border-radius: 5rem;
     position: relative;
     top: 0.5rem;
+    left: 1rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .card .box img{
-    width: 100%;
-    height: 100%;
+    width: 100px;
+    height: 70px;
+    transform: scale(1.4);
     border-radius: 10rem;
 }
 
@@ -358,6 +365,7 @@ span{
     top: 70rem;
     display: flex;
     align-items: center;
+    border: 0.5px solid #d1d1d1;
    
     
 }

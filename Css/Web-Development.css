@@ -1,0 +1,435 @@
+body {
+    width: 100vw;
+    height: auto;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+/* DropDown Css */
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    margin-left: .125em;
+}
+
+.dropend:hover>.dropdown-menu {
+    display: block;
+    margin-left: 5em;
+   position: absolute;
+   left: 4.5rem;
+    top: -0.5rem;
+}
+
+
+.dropdown-menu > .dropend:hover {
+    display: block;
+    margin-left: 0.5rem;
+}
+
+.nav-item:hover,
+.dropdown-item:hover {
+    background-color: #d1d1d1;
+    border-radius: 0.6rem;
+    transition: 0.3s ease-in-out;
+}
+
+/* DropDown Css */
+
+.nav {
+    background-color: #f3f3f3;
+    box-shadow: 0 10px 4px rgba(0, 0, 0, .08), 0 10px 12px rgba(0, 0, 0, .08);
+    z-index: 1;
+
+}
+
+
+.upper-head {
+    height: 50px;
+    text-align: center;
+    background-color: rgb(3, 3, 12);
+
+}
+
+
+.upper-head h2 {
+    font-size: clamp(0.6rem, 1vw, 2rem);
+    color: white;
+    padding: 0.8rem;
+
+}
+
+
+.Data-Science{
+    position: relative;
+    top:4rem;
+    text-align: left;
+}
+
+.Data-Science h2{
+    font-size: clamp(1rem,8vw,2rem);
+}
+
+.courses-to-get-started{
+    position: relative;
+    top: 7rem;
+    border-bottom: 0.5px solid #d1d1d1;
+
+}
+
+.courses-to-get-starteds h2{
+    font-size: clamp(1rem,4vw,2rem);
+}
+
+
+
+.course-cards{
+    position: relative;
+    top: 12rem;
+   
+}
+
+.course-cards .card{
+    width: 15rem;
+    height: auto;
+    border: none;
+    transition: 0.3s ease;
+   
+}
+
+.course-cards .card:hover{
+    transform: scale(1.1);
+}
+.course-cards .card img{
+    border-bottom: 0.5px solid #d1d1d1 ;
+} 
+.course-cards .card p {
+    font-size: 1rem,1vw,1.5rem;
+}
+
+
+.cards-aligner-col{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.span{
+    position: relative;
+    bottom: 0.9rem;
+    font-size: clamp(0.7rem,0.5vw,1rem);
+    font-weight: 500;
+}
+span{
+    font-size: clamp(0.7rem,0.5vw,0.8rem);
+    font-weight: 500;
+}
+
+.stars{
+    position: relative;
+    bottom: 1rem;
+    font-size: clamp(0.7rem,0.5vw,1.5rem);
+}
+
+/* Machine Learning Courses */
+
+.courses-to-get-started-2{
+    position: relative;
+    top: 18rem;
+    border-bottom: 0.5px solid #d1d1d1;
+
+}
+
+.courses-to-get-starteds h2{
+    font-size: clamp(1rem,4vw,2rem);
+}
+
+
+
+.course-cards-2{
+    position: relative;
+    top: 24rem;
+   
+}
+
+.course-cards-2 .card{
+    width: 15rem;
+    height: auto;
+    border: none;
+    transition: 0.3s ease;
+   
+}
+
+.course-cards-2 .card:hover{
+    transform: scale(1.1);
+}
+.course-cards-2 .card img{
+    border-bottom: 0.5px solid #d1d1d1;
+}
+.course-cards-2 .card p {
+    font-size: 1rem,1vw,1.5rem;
+}
+
+
+
+/* Machine Learning Courses */
+
+
+/* Deep Learning Courses */
+.courses-to-get-started-3{
+    position: relative;
+    top: 31rem;
+    border-bottom: 0.5px solid  #d1d1d1;
+
+}
+
+.courses-to-get-starteds h2{
+    font-size: clamp(1rem,4vw,2rem);
+}
+
+
+
+.course-cards-3{
+    position: relative;
+    top: 37rem;
+   
+}
+
+.course-cards-3 .card{
+    width: 15rem;
+    height: auto;
+    border: none;
+    transition: 0.3s ease;
+   
+}
+
+.course-cards-3 .card:hover{
+    transform: scale(1.1);
+}
+.course-cards-3 .card img{
+    border-bottom: 0.5px solid #d1d1d1;
+}
+.course-cards-3 .card p {
+    font-size: 1rem,1vw,1.5rem;
+}
+
+
+
+
+/* Deep Learning Courses */
+
+.Python-Students-Also-Learn{
+    position: relative;
+    top: 15rem;
+    border: 0.5px solid #d1d1d1;
+}
+.Python-Students-Also-Learn h2{
+    font-size: clamp(1rem,5vw,2rem);
+}
+
+.contain-section{
+    position: relative;
+    top: 39rem;
+    background-color: rgb(255, 255, 255);
+    border-top: 0.5px solid  darkgoldenrod;
+    border-bottom: 0.5px solid cadetblue;
+}
+.contain-section p{
+    font-size: clamp(0.8rem,1.5vw,2rem);
+    
+}
+
+.contain-section i{
+    font-size: clamp(2rem,2vw,2rem);
+    
+}
+
+.Popular-topics{
+    position: relative;
+    top: 44rem;
+    border: 0.5px solid #d1d1d1;
+}
+.courses-button{
+    position: relative;
+    top: 47rem;
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.btns button{
+    width: 15rem;
+    height: 4rem;
+    border: none;
+    background-color: white;
+    border: 0.5px solid #d1d1d1;
+    transition: 0.3s ease;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+.btns button:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.popular-ins-heading{
+    position: relative;
+    top: 55rem;
+    border-bottom: 0.5px solid #d1d1d1;
+}
+.popular-ins{
+    position: relative;
+    top: 60rem;
+
+}
+
+
+
+   
+
+.card{
+    width: 25rem;
+    height: auto;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card .box{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+    position: relative;
+    top: 0.5rem;
+    display: flex;
+    left: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card .box img{
+    width: 100px;
+    height: 70px;
+    border-radius: 10rem;
+}
+
+.card-body-2{
+    display: flex;
+    text-align: center;
+}
+
+.card-content h2{
+    font-size: clamp(0.6rem,1vw,1.5rem);
+    font-weight: bold;
+    margin-left: 2rem;
+
+}
+.card-content p{
+   
+    font-size: clamp(0.6rem,1vw,1.5rem);
+    margin-left: 2rem;
+}
+
+
+.span{
+    position: relative;
+    bottom: 0.9rem;
+    font-size: clamp(0.7rem,0.5vw,1rem);
+    font-weight: 500;
+}
+span{
+    font-size: clamp(0.7rem,0.5vw,0.8rem);
+    font-weight: 500;
+}
+
+.stars{
+    position: relative;
+    bottom: 1rem;
+    font-size: clamp(0.5rem,0.5vw,1.5rem);
+}
+.stars-2{
+    position: relative;
+    bottom: 1rem;
+    left: 1rem;
+    font-size: clamp(0.5rem,0.5vw,1.5rem);
+}
+
+.all-course{
+    position: relative;
+    top: 68rem;
+    
+}
+
+
+.contain-bar
+{  height: 4rem;
+    position: relative;
+    top: 70rem;
+    display: flex;
+    align-items: center;
+    border: 0.5px solid #d1d1d1;
+   
+    
+}
+
+.bar i{
+    width: 2rem;
+    border-radius: 2rem;
+    background-color: black;
+    color: white;
+    font-size: clamp(1.5rem,2.5vw,2rem);
+    text-align: center;;
+   
+    
+}
+
+.bar h4{  
+    font-size: clamp(1rem,2vw,2rem);
+    
+    
+}
+
+
+footer{
+    width: 100%;
+   height: auto;
+    background-color: #f3f3f3;
+    padding: 1rem;
+    position: relative;
+    top: 75rem;
+
+}
+footer .h3-bef{
+    color: black;
+    font-weight: bold;
+    font-size: clamp(0.8rem, 2vw, 3rem);
+
+}
+.footer-links{
+    color: black;
+font-size: clamp(0.5rem,1vw,1.5rem);
+}
+.footer-links:hover{
+    background-color: #d1d1d1;
+    border-radius: 1rem;
+    transition: 0.2s ease-in-out;
+}
+
+.icons{
+    font-size: clamp(0.5rem, 1vw, 1.5rem) 
+}
+
+.icons a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+}
+
+.icons a:hover{
+    color:#888888 ;
+    transition: 0.3s ease-in;
+}
