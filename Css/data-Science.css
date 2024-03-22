@@ -1,5 +1,4 @@
 body {
-    width: 100vw;
     height: auto;
     font-family: "Quantico", sans-serif;
     font-weight: 400;
@@ -150,7 +149,7 @@ span{
 
 .course-cards-2{
     position: relative;
-    top: 24rem;
+    top: 25rem;
    
 }
 
@@ -171,6 +170,7 @@ span{
 .course-cards-2 .card p {
     font-size: 1rem,1vw,1.5rem;
 }
+
 
 
 
@@ -355,7 +355,7 @@ span{
 
 .all-course{
     position: relative;
-    top: 68rem;
+    top: 2rem;
     
 }
 
@@ -363,7 +363,7 @@ span{
 .contain-bar
 {  height: 4rem;
     position: relative;
-    top: 70rem;
+    top: 6rem;
     display: flex;
     align-items: center;
     border: 0.5px solid #d1d1d1;
@@ -395,7 +395,7 @@ footer{
     background-color: #f3f3f3;
     padding: 1rem;
     position: relative;
-    top: 75rem;
+    top: 8rem;
 
 }
 footer .h3-bef{
