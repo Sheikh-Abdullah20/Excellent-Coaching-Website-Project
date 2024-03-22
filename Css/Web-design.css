@@ -74,7 +74,6 @@ body {
 .courses-to-get-started{
     position: relative;
     top: 7rem;
-    border-bottom: 0.5px solid #d1d1d1;
 
 }
 
@@ -96,6 +95,10 @@ body {
     border: none;
     transition: 0.3s ease;
    
+}
+.course-cards .card img{
+    width: 90%;
+    border-radius: 1rem;
 }
 
 .course-cards .card:hover{
@@ -137,7 +140,7 @@ span{
 .courses-to-get-started-2{
     position: relative;
     top: 18rem;
-    border-bottom: 0.5px solid #d1d1d1;
+
 
 }
 
@@ -161,6 +164,11 @@ span{
    
 }
 
+.course-cards-2 .card img{
+    width: 90%;
+    border-radius: 1rem;
+}
+
 .course-cards-2 .card:hover{
     transform: scale(1.1);
 }
@@ -180,7 +188,7 @@ span{
 .courses-to-get-started-3{
     position: relative;
     top: 31rem;
-    border-bottom: 0.5px solid  #d1d1d1;
+
 
 }
 
@@ -202,6 +210,11 @@ span{
     border: none;
     transition: 0.3s ease;
    
+}
+
+.course-cards-3 .card img{
+    width: 90%;
+    border-radius: 1rem;
 }
 
 .course-cards-3 .card:hover{
@@ -232,8 +245,7 @@ span{
     position: relative;
     top: 39rem;
     background-color: rgb(255, 255, 255);
-    border-top: 0.5px solid  darkgoldenrod;
-    border-bottom: 0.5px solid cadetblue;
+
 }
 .contain-section p{
     font-size: clamp(0.8rem,1.5vw,2rem);
@@ -248,7 +260,7 @@ span{
 .Popular-topics{
     position: relative;
     top: 44rem;
-    border: 0.5px solid #d1d1d1;
+
 }
 .courses-button{
     position: relative;
@@ -277,7 +289,7 @@ span{
 .popular-ins-heading{
     position: relative;
     top: 55rem;
-    border-bottom: 0.5px solid #d1d1d1;
+
 }
 .popular-ins{
     position: relative;
@@ -312,24 +324,28 @@ span{
 }
 
 .card .box img{
-    width: 100px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
+    transform: scale(1.4);
     border-radius: 10rem;
+    text-align: left;
 }
 
 .card-body-2{
     display: flex;
-    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .card-content h2{
     font-size: clamp(0.6rem,1vw,1.5rem);
     font-weight: bold;
     margin-left: 2rem;
+    text-align: left;
 
 }
 .card-content p{
-   
+    text-align: left;
     font-size: clamp(0.6rem,1vw,1.5rem);
     margin-left: 2rem;
 }
@@ -337,6 +353,7 @@ span{
 
 .span{
     position: relative;
+    text-align: left;
     bottom: 0.9rem;
     font-size: clamp(0.7rem,0.5vw,1rem);
     font-weight: 500;
@@ -350,17 +367,20 @@ span{
     position: relative;
     bottom: 1rem;
     font-size: clamp(0.5rem,0.5vw,1.5rem);
+    text-align: left;
 }
+
 .stars-2{
     position: relative;
     bottom: 1rem;
-    left: 1rem;
+    left: 2rem;
     font-size: clamp(0.5rem,0.5vw,1.5rem);
+    text-align: left;
 }
 
 .all-course{
     position: relative;
-    top: 68rem;
+    top: 5rem;
     
 }
 
@@ -368,7 +388,7 @@ span{
 .contain-bar
 {  height: 4rem;
     position: relative;
-    top: 70rem;
+    top: 10rem;
     display: flex;
     align-items: center;
     border: 0.5px solid #d1d1d1;
@@ -400,7 +420,7 @@ footer{
     background-color: #f3f3f3;
     padding: 1rem;
     position: relative;
-    top: 75rem;
+    top: 15rem;
 
 }
 footer .h3-bef{
