@@ -210,6 +210,90 @@ span{
     font-size: clamp(0.7rem,0.5vw,1.5rem);
 }   
 
+.text-learner{
+position: relative;
+top: 2rem;
+   
+}
+.text-learner{
+    font-size: clamp(1rem,2vw,1.5rem);
+    font-weight: bold;
+}
+.contain-learn-big{
+    position: relative;
+    top: 15rem;
+    height: auto;
+}
+
+.contain-learn-mini{
+    height: auto;
+}
+.quote{
+    width: 20rem;
+    height: 22.5rem;
+    margin-top: 6rem;
+    text-align: left;
+   background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 0.5px solid rgb(218, 218, 218);
+    padding: 1rem;
+}
+
+.card-title {
+  font-size: clamp(1rem,0.5vw,1rem);
+}
+.inner-quote{
+    margin-top: 3rem;
+    background: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 0.5px solid rgb(0, 0, 0); 
+
+}
+
+.inner-quote .box{
+    width: 3rem;
+    height: 2rem;
+    background-color: rgb(26, 26, 26);
+    border-radius: 1rem;
+    border: none;
+    position:relative;
+    right: 1rem;
+}
+
+.box-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-text h4{
+    font-size: clamp(0.5rem,0.8vw,1rem);
+    margin-top: 0.3rem;
+}
+
+.inner-quote-2{
+    position: relative;
+    
+}
+.inner-quote-2 i{
+    color: rgb(38, 0, 255);
+}
+.inner-quote-2
+.box-2 a{
+    font-size: clamp(0.6rem,0.5vw,1rem);
+    color: blue;
+}
+
+.inner-quote-2
+.box-2 a:hover{
+    color: black;
+}
+
+.box-2-body{
+ display: flex;
+ justify-content: center;
+}
+
+
 .teacher-section {
     width: 100%;
     background-color: #ffffff;
@@ -255,7 +339,7 @@ footer{
     background-color: #f3f3f3;
     padding: 1rem;
     position: relative;
-    top: 12rem;
+    top: 15rem;
 
 }
 footer .h3-bef{
