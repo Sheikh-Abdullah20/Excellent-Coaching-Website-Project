@@ -9,6 +9,7 @@ body {
     font-family: "Quantico", sans-serif;
     font-weight: 400;
     font-style: normal;
+    overflow-x: hidden;
   
     
 }
@@ -46,15 +47,19 @@ body {
 
 .col-data{
     background-color: rgb(27, 21, 21);
-    height: auto;
+    height: 28rem;
     width: 100%;
 }
 .heading-stuff{
     
     color: white;
 }
+.heading-stuff h2{
+    font-size: clamp(1.5rem,1vw,1rem);
+}
 .heading-stuff p{
     width: 50%;
+    font-size: clamp(0.8rem,1vw,1rem);
 }
 .links{
     display: flex;
@@ -67,6 +72,7 @@ body {
     font-weight: bold;
     padding: 1rem;
     transition: 0.3s ease;
+    font-size: clamp(0.8rem,1vw,1rem);
 }
 
 .links a:hover{
@@ -74,11 +80,11 @@ body {
 }
 
 .card-col{
-    position: fixed;
-    top: 10rem;
-    scrollbar-width: 50rem;
+    /* Positions will Come Here of Purchase section */
 
 }
+
+
 
 .stats{
     display: flex;
@@ -86,13 +92,15 @@ body {
     
 }
 .stats i {
-    font-size: clamp(0.8rem,0.8vw,1rem);
-    padding: 0.2rem;
+    font-size: clamp(0.6rem,0.5vw,1rem);
+    color: #FFD43B;
+   margin-left: 0.4rem;
+   margin-top: 0.2rem;
 }
 .stats .rating-point{
     color: #FFD43B;
     margin-bottom: 0.4rem;
-    font-size: clamp(1rem,1vw,1rem);
+    font-size: clamp(0.8rem,1vw,1rem);
 }
 .stats .rating-num{
     margin-bottom: 0.3rem;
@@ -100,7 +108,7 @@ body {
     margin-left: 0.5rem;
 }
 .created-sec h5{
-    font-size: clamp(0.5rem,1vw,1rem);
+    font-size: clamp(0.8rem,1vw,1rem);
 }
 
 .last-sec{
@@ -109,24 +117,31 @@ body {
 }
 
 .last-sec i {
-    font-size: clamp(1rem,1vw,1rem); 
+    font-size: clamp(0.8rem,1vw,1rem);
   
 }
 
 .last-sec .seco{
-    font-size: clamp(1rem,1vw,1rem); 
+    font-size: clamp(0.8rem,1vw,1rem);; 
     margin-left: 1rem;
 }
 .last-sec .third{
-    font-size: clamp(0.5rem,1vw,1rem); 
+    font-size: clamp(0.8rem,1vw,1rem);
     margin-left: 1rem;
 }
 
 .last-sec h5 {
-    font-size: clamp(0.5rem,1vw,1rem);
+    font-size: clamp(0.8rem,1vw,1rem);
     margin-left: 0.4rem;
     margin-top: 0.4rem;
 }
+
+
+
+.card .card-body .card-title{
+    font-size: clamp(1.5rem,2vw,1rem);
+}
+
 .btn-1{
     width: 18rem;
     height: 3rem;
@@ -258,3 +273,79 @@ font-size: clamp(0.7rem,0.9vw,0.7rem);
     background-color: rgb(0, 0, 0);
     font-weight: bold;
 }
+/* 
+@media only screen and (max-width:1100px) {
+    .purchase-section{
+        display: none;
+    }
+} */
+
+.companies{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.companies img{
+filter: grayscale(100%);
+}
+.Requirement-text{
+    margin: 0.5rem;
+    font-size: clamp(0.5rem,1vw,1rem);
+}
+.Requirement-text h1{
+    font-size: clamp(1.5rem,2vw,1rem);
+}
+.Description-text{
+    margin: 0.5rem;
+    font-size: clamp(0.5rem,1vw,1rem);
+}
+.Description-text h1{
+    font-size: clamp(1.5rem,2vw,1rem);
+}
+
+.big-para i{
+margin: 0.5rem;
+}
+.para-w{
+    font-size: clamp(0.5rem,1vw,1rem);
+}
+.para-w h1{
+    font-size: clamp(1.5rem,1vw,1rem);
+}
+.para-w i{
+    margin: 0.5rem;
+      
+  }
+
+  .rounded-img {
+    width: 5rem;
+    height: 5rem;
+    background-color: #FFD43B;
+    border-radius: 50rem;
+    display: flex;
+ 
+  }
+
+  .rounded-img h3{
+    position: relative;
+    left: 1rem;
+    font-size: clamp(0.7rem,1vw,1rem);
+  }
+
+  .rounded-img img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50rem;
+  }
+
+  .card-body .stars{
+    display: flex;
+    margin-left: 5rem;
+  }
+
+  .card-body .stars span{
+  position: relative;
+  bottom: 0.3rem;
+  left: 0.7rem;
+  }
