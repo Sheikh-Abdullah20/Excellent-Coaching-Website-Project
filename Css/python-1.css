@@ -9,9 +9,8 @@ body {
     font-family: "Quantico", sans-serif;
     font-weight: 400;
     font-style: normal;
-    overflow-x: hidden;
-  
-    
+    scroll-behavior: smooth;
+
 }
 
 /* DropDown Css */
@@ -79,11 +78,84 @@ body {
     color: rgb(201, 186, 186);
 }
 
-.card-col{
-    /* Positions will Come Here of Purchase section */
-
+.purchase-section-1{
+    position: relative;
+    bottom: 25rem;
 }
 
+ @media only screen and (max-width:1100px) {
+     .purchase-section-row-res {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         z-index: 1;
+        }
+       
+        
+        .icon-content i{
+            display: inline-flex;
+            align-items: start;
+            padding: 1.5rem;
+            justify-content: flex-start;
+        font-size: clamp(0.4rem,1vw,0.7rem);
+    }
+    
+    .icon-content .second{
+        padding-inline:1.5rem;
+    }
+    .icon-content p{
+        display: inline-flex;
+        font-size: clamp(0.7rem,0.9vw,0.7rem);
+    }
+    
+    .learn-cards{
+        display: none;
+    }
+    
+
+}  
+
+@media only screen and (max-width:999px) {
+    .property-con-res{
+        display: contents;
+    }
+    .para-w{
+        width: 100%;
+    }
+    .Companies-res{
+        width: 100%;
+    }
+    .Requirements-res{
+        width: 100%;
+    }
+    .description-res{
+        width: 100%;
+    }
+    .Featured-Review{
+        width: 100%;
+    }
+    .instructor-res{
+        width: 100%;
+        font-size: clamp(1rem,1vw,2rem);
+    }
+
+    .stars{
+       font-size: clamp(0.4rem,1vw,1rem);
+ 
+    }
+   
+}
+.property-con-res{
+    position: fixed;
+    right: 0;
+    top: 5rem;
+}
+
+
+
+.add{
+    transition: 0.3s ease;
+}
 
 
 .stats{
@@ -91,6 +163,7 @@ body {
     align-items: center;
     
 }
+
 .stats i {
     font-size: clamp(0.6rem,0.5vw,1rem);
     color: #FFD43B;
@@ -138,28 +211,49 @@ body {
 
 
 
-.card .card-body .card-title{
+/* .card .card-body .card-title{
     font-size: clamp(1.5rem,2vw,1rem);
+} */
+
+
+.purchase-section img{
+    width: 70%;
+    margin: 2px auto;
+    display: block;
+}
+.card-body h2{
+    font-size: clamp(0.7rem,2vw,1rem);
 }
 
+
+a .btn-1{
+    font-size: clamp(0.5rem,1vw,1rem);
+}
 .btn-1{
-    width: 18rem;
-    height: 3rem;
+    width: 15rem;
+    height: 2rem;
     border: none;
     background-color: rgb(255, 255, 255);
     transition: 0.3s ease;
     border-radius: 1rem;
     border: 0.9px solid #b6b6b6;
+    display: block;
+    margin: 2px auto;
+    
 }
-
+a .btn-2{
+    font-size: clamp(0.5rem,0.8vw,1rem);
+}
 .btn-2{
-    width: 18rem;
-    height: 3rem;
+    width: 15rem;
+    height: 2rem;
     margin-top: 1rem;
     background-color: rgb(255, 255, 255);
     border: 0.9px solid #b6b6b6;
     transition: 0.3s ease;
     border-radius: 1rem;
+    display: block;
+    margin: 2px auto;
 }
 
 .btn-1:hover{
@@ -191,9 +285,9 @@ span{
 }
 
 .card-body h4{
-    font-size: clamp(0.7rem,1vw,1rem);
+    font-size: clamp(0.7rem,0.5vw,1rem);
     font-weight: bold;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 
@@ -201,31 +295,20 @@ span{
 .icon-content i{
     display: inline-flex;
     align-items: start;
-    padding: 1rem;
+    padding: 0.9rem;
     justify-content: flex-start;
-    font-size: clamp(0.9rem,1vw,0.7rem);
+    font-size: clamp(0.9rem,0.5vw,0.7rem);
 }
 
 .icon-content .second{
-    padding-inline:1.2rem;
+    padding-inline:1rem;
 }
 .icon-content p{
-display: inline-flex;
+display:inline-flex;
 font-size: clamp(0.7rem,0.9vw,0.7rem);
 }
 
-.spans{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
-}
-.spans .span{
-    font-size: clamp(1rem,1vw,1rem);
-    font-weight: bold;
-    border-bottom: 3px solid blue;
-    text-decoration: none;
-    color: black;
-}
+
 
 .flat-text{
     margin-top: 2rem;
@@ -273,12 +356,7 @@ font-size: clamp(0.7rem,0.9vw,0.7rem);
     background-color: rgb(0, 0, 0);
     font-weight: bold;
 }
-/* 
-@media only screen and (max-width:1100px) {
-    .purchase-section{
-        display: none;
-    }
-} */
+
 
 .companies{
 display: flex;
@@ -287,17 +365,21 @@ align-items: center;
 }
 
 .companies img{
-filter: grayscale(100%);
+    object-fit: contain;
+    filter: grayscale(100%);
 }
 .Requirement-text{
-    margin: 0.5rem;
+    margin: 1rem;
     font-size: clamp(0.5rem,1vw,1rem);
 }
 .Requirement-text h1{
     font-size: clamp(1.5rem,2vw,1rem);
 }
-.Description-text{
+.Requirement-text .card-text i{
     margin: 0.5rem;
+}
+.Description-text{
+    margin: 1rem;
     font-size: clamp(0.5rem,1vw,1rem);
 }
 .Description-text h1{
@@ -305,18 +387,28 @@ filter: grayscale(100%);
 }
 
 .big-para i{
-margin: 0.5rem;
+    margin: 1rem;
 }
 .para-w{
-    font-size: clamp(0.5rem,1vw,1rem);
+    font-size: clamp(0.7rem,1vw,1rem);
+   text-align: left;
 }
 .para-w h1{
     font-size: clamp(1.5rem,1vw,1rem);
 }
 .para-w i{
-    margin: 0.5rem;
+    margin: 1rem;
       
   }
+  .Featured-Review{
+    padding: 2rem;
+  }
+
+  .review-sec
+{
+    padding: 3rem;
+  }
+  
 
   .rounded-img {
     width: 5rem;
@@ -324,13 +416,14 @@ margin: 0.5rem;
     background-color: #FFD43B;
     border-radius: 50rem;
     display: flex;
+    
  
   }
 
   .rounded-img h3{
     position: relative;
     left: 1rem;
-    font-size: clamp(0.7rem,1vw,1rem);
+    font-size: clamp(0.8rem,1vw,1rem);
   }
 
   .rounded-img img{
@@ -349,3 +442,76 @@ margin: 0.5rem;
   bottom: 0.3rem;
   left: 0.7rem;
   }
+
+  .avatar-content{
+    display: flex;
+    
+  }
+
+  .avatar-content .box img{
+    width: 10rem;
+    border-radius: 50rem;
+  }
+  
+  .avatar-content ul{
+
+    list-style: none;
+  }
+  .avatar-content .icon-con{
+    display: flex;
+    font-weight: 100;
+ 
+  }
+  .avatar-content .icon-con i{
+    margin-top: 0.8rem;
+    font-size: clamp(1rem,1.8vw,1.5rem);
+
+  }
+
+  .avatar-content .icon-con h4{
+    margin-left: 1rem;
+    font-size: clamp(0.8rem,1vw,1rem);
+  
+  }
+
+  footer{
+    width: 100%;
+   height: auto;
+    background-color: #f3f3f3;
+    padding: 1rem;
+    position: relative;
+    top: 5rem;
+
+}
+footer .h3-bef{
+    color: black;
+    font-weight: bold;
+    font-size: clamp(0.8rem, 2vw, 3rem);
+
+}
+.footer-links{
+    color: black;
+font-size: clamp(0.5rem,1vw,1.5rem);
+}
+.footer-links:hover{
+    background-color: #d1d1d1;
+    border-radius: 1rem;
+    transition: 0.2s ease-in-out;
+}
+
+.icons{
+    font-size: clamp(0.5rem, 1vw, 1.5rem) 
+}
+
+.icons a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+}
+
+.icons a:hover{
+    color:#888888 ;
+    transition: 0.3s ease-in;
+    
+}
+
