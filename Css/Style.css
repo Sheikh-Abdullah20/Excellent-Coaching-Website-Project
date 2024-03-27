@@ -120,7 +120,8 @@ body {
     text-align: center;
     font-weight: 300;
     font-size: 1rem;
-    margin: 1rem;
+    position: relative;
+    top: 1rem;
 }
 
 .companies img {
@@ -132,7 +133,7 @@ body {
     display: flex;
     justify-content: space-around;
     position: relative;
-    top: 1rem;
+    top: 2rem;
 
 }
 
@@ -362,6 +363,23 @@ font-size: clamp(0.5rem,1vw,1.5rem);
 .icons{
     font-size: clamp(0.5rem, 1vw, 1.5rem) 
 }
+
+
+.address-gmail {
+  
+    position: relative;
+    top: 2rem;
+  }
+  .address-gmail .mail{
+    color: blue;
+    font-size: clamp(0.5rem,1vw,1rem)
+    
+  }
+  
+  .address-gmail span{
+    display: flex;
+    font-size: clamp(0.3rem,0.8vw,1rem)
+  }
 
 .icons a{
     text-decoration: none;

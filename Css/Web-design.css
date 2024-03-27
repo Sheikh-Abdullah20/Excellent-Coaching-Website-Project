@@ -388,10 +388,10 @@ span{
 .contain-bar
 {  height: 4rem;
     position: relative;
-    top: 10rem;
+    top: 52rem;
     display: flex;
     align-items: center;
-    border: 0.5px solid #d1d1d1;
+
    
     
 }
@@ -420,7 +420,7 @@ footer{
     background-color: #f3f3f3;
     padding: 1rem;
     position: relative;
-    top: 15rem;
+    top: 55rem;
 
 }
 footer .h3-bef{
@@ -448,6 +448,23 @@ font-size: clamp(0.5rem,1vw,1.5rem);
     color: black;
     padding: 0.5rem;
 }
+
+
+.address-gmail {
+  
+    position: relative;
+    top: 2rem;
+  }
+  .address-gmail .mail{
+    color: blue;
+    font-size: clamp(0.5rem,1vw,1rem)
+    
+  }
+  
+  .address-gmail span{
+    display: flex;
+    font-size: clamp(0.3rem,0.8vw,1rem)
+  }
 
 .icons a:hover{
     color:#888888 ;

@@ -89,7 +89,7 @@ font-weight: bold;
 
 .Contact-us p {
 font-size: clamp(0.8rem, 1vw, 1.5rem);
-margin-top: 1rem;
+margin-top: 0.5rem;
 }
 
 .contact-card-spacing{
@@ -99,7 +99,7 @@ margin-top: 1rem;
 }
 .contact-us-cards {
 position: relative;
-top: 10rem;
+top: 8rem;
 }
 
 
@@ -124,7 +124,7 @@ font-size: clamp(0.7rem, 0.9vw, 1.5rem);
 }
 .Offices-Row {
 position: relative;
-top: 25rem;
+top: 15rem;
 background-color: #f3f3f3;
 }
 
@@ -194,6 +194,22 @@ transition: 0.2s ease-in-out;
 
 .icons {
 font-size: clamp(0.5rem, 1vw, 1.5rem);
+}
+
+.address-gmail {
+  
+  position: relative;
+  top: 2rem;
+}
+.address-gmail .mail{
+  color: blue;
+  font-size: clamp(0.5rem,1vw,1rem)
+  
+}
+
+.address-gmail span{
+  display: flex;
+  font-size: clamp(0.3rem,0.8vw,1rem)
 }
 
 .icons a {

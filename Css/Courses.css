@@ -697,6 +697,22 @@ font-size: clamp(0.5rem,1vw,1.5rem);
     font-size: clamp(0.5rem, 1vw, 1.5rem) 
 }
 
+.address-gmail {
+  
+    position: relative;
+    top: 2rem;
+  }
+  .address-gmail .mail{
+    color: blue;
+    font-size: clamp(0.5rem,1vw,1rem)
+    
+  }
+  
+  .address-gmail span{
+    display: flex;
+    font-size: clamp(0.3rem,0.8vw,1rem)
+  }
+
 .icons a{
     text-decoration: none;
     color: black;
