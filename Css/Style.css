@@ -120,7 +120,8 @@ body {
     text-align: center;
     font-weight: 300;
     font-size: 1rem;
-    margin: 1rem;
+    position: relative;
+    top: 1rem;
 }
 
 .companies img {
@@ -132,7 +133,7 @@ body {
     display: flex;
     justify-content: space-around;
     position: relative;
-    top: 1rem;
+    top: 2rem;
 
 }
 
