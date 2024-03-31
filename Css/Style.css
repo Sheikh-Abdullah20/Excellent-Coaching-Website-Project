@@ -225,8 +225,13 @@ top: 2rem;
     position: relative;
     top: 15rem;
     height: auto;
+
 }
 
+.quote:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 .contain-learn-mini{
     height: auto;
 }
@@ -239,6 +244,7 @@ top: 2rem;
     color: rgb(0, 0, 0);
     border: 0.5px solid rgb(218, 218, 218);
     padding: 1rem;
+    transition: 0.3s ease;
 }
 
 .card-title {
